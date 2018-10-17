@@ -141,7 +141,10 @@ public class ExDictController implements Initializable {
     @FXML
     public void onBtnLoad(ActionEvent e) {
         fileChooser.setTitle("载入");
-        fileChooser.setInitialDirectory(file.getAbsoluteFile().getParentFile());
+        File parent = file.getAbsoluteFile().getParentFile();
+        if (parent.exists()) {
+            fileChooser.setInitialDirectory(parent);
+        }
         File file = fileChooser.showOpenDialog(stage);
         if (file == null) {
             return;
@@ -179,7 +182,10 @@ public class ExDictController implements Initializable {
     @FXML
     public void onBtnSaveAs(ActionEvent e) throws IOException {
         fileChooser.setTitle("另存为");
-        fileChooser.setInitialDirectory(file.getAbsoluteFile().getParentFile());
+        File parent = file.getAbsoluteFile().getParentFile();
+        if (parent.exists()) {
+            fileChooser.setInitialDirectory(parent);
+        }
         fileChooser.setInitialFileName(file.getName());
         File file = fileChooser.showOpenDialog(stage);
         if (file == null) {
