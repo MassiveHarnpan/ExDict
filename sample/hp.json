@@ -1,0 +1,63 @@
+{
+  "name": "哈利波特咒语大全",
+  "intro": "本书收录了哈利波特中所有的咒语（才怪嘞）（笑）。",
+  "words": [
+    {
+      "text": "Imperio",
+      "descs": [
+        {
+          "part": "n",
+          "content": "魂魄出窍"
+        },
+        {
+          "part": "exp",
+          "content": "对人使用后会使对方迷失心窍，完全按照施法者的意图做事，此魔法一旦被成功使用，自我无法恢复。"
+        }
+      ]
+    },
+    {
+      "text": "Crucio",
+      "descs": [
+        {
+          "part": "n",
+          "content": "钻心剜骨"
+        },
+        {
+          "part": "exp",
+          "content": "被钻心咒击中的人会感到全身刺骨的疼痛，钻心的痛苦会使被施法者痛不欲生，如果一直不停止施咒，被施法者会痛苦到被折磨疯，甚至死亡。"
+        }
+      ]
+    },
+    {
+      "text": "Avada Kedavra",
+      "descs": [
+        {
+          "part": "n",
+          "content": "阿瓦达索命"
+        },
+        {
+          "part": "exp",
+          "content": "使用者念咒之后如果击中目标可以立即置人于死地，会出现一道绿色的光，甚至不会给目标留一点伤痕。"
+        }
+      ]
+    },
+    {
+      "text": "Alohomora ",
+      "descs": [
+        {
+          "part": "n",
+          "content": "阿拉霍洞开"
+        }
+      ]
+    },
+    {
+      "text": "Wingardium leviosa",
+      "descs": [
+        {
+          "part": "n",
+          "content": "羽加迪姆 勒维奥萨"
+        }
+      ]
+    }
+  ]
+}
